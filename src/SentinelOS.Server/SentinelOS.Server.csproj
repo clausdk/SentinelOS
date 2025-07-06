@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\libs\CodeLogic.Libs\src\CL.GitHelper\CL.GitHelper.csproj" />
+    <ProjectReference Include="..\..\libs\CodeLogic.Libs\src\CL.Mail\CL.Mail.csproj" />
+    <ProjectReference Include="..\..\libs\CodeLogic.Libs\src\CL.MySQL\CL.MySQL.csproj" />
+    <ProjectReference Include="..\..\libs\CodeLogic.Libs\src\CL.NetUtils\CL.NetUtils.csproj" />
+    <ProjectReference Include="..\..\libs\CodeLogic.Libs\src\CL.StorageS3\CL.StorageS3.csproj" />
+    <ProjectReference Include="..\..\libs\CodeLogic.Libs\src\CL.SystemStats\CL.SystemStats.csproj" />
+    <ProjectReference Include="..\..\libs\CodeLogic\src\CodeLogic.csproj" />
+    <ProjectReference Include="..\SentinelOS.Core\SentinelOS.Core.csproj" />
+    <ProjectReference Include="..\SentinelOS.Net\SentinelOS.Net.csproj" />
+  </ItemGroup>
+
+</Project>
